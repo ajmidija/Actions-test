@@ -5,7 +5,9 @@ on:
    branches: [ "main" ] # Runs on every pushto the main branche
      Workflow_dispatch: # Allow you tomanually run this workflow fromt he Actions tab
 Jobs:
-  Say-hello: ubuntu-latst
+  Say-hello: ubuntu-latest
   step:
     - name: Run a one-Line script
     run: echo "Hello, world! Your first Github Action is running successfully."
+
+
